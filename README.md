@@ -1,11 +1,11 @@
-About pyobjc-framework-fsevents
-===============================
+About pyobjc-framework-fsevents-feedstock
+=========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyobjc-framework-fsevents-feedstock/blob/main/LICENSE.txt)
 
 Home: https://bitbucket.org/ronaldoussoren/pyobjc
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyobjc-framework-fsevents-feedstock/blob/main/LICENSE.txt)
 
 Summary: Wrappers for the framework FSEvents on macOS
 
