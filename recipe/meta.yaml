@@ -32,7 +32,7 @@ test:
     - FSEvents
 
 about:
-  home: https://bitbucket.org/ronaldoussoren/pyobjc
+  home: https://github.com/ronaldoussoren/pyobjc
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
