@@ -1,13 +1,13 @@
 {% set name = "pyobjc-framework-FSEvents" %}
-{% set version = "10.2" %}
+{% set version = "10.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3a75f38bb1d5d2cf6a0d3e92801b3510f32e96cf6443d81b9dd92a84d72eff0a
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyobjc_framework_fsevents-{{ version }}.tar.gz
+  sha256: 46fe0220e54f4d2f375d2b98d292d10ad188a797973cf60b64b24336fd1160ad
 
 build:
   number: 0
@@ -32,7 +32,7 @@ test:
     - FSEvents
 
 about:
-  home: https://bitbucket.org/ronaldoussoren/pyobjc
+  home: https://github.com/ronaldoussoren/pyobjc
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
