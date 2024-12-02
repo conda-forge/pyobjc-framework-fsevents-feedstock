@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyobjc_framework_fsevents-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyobjc_framework_fsevents-{{ version }}.tar.gz
   sha256: fb215032d65aa39eb5af1b6481f605e71afa77f881b37ba804af77bf24d2fde3
 
 build:
