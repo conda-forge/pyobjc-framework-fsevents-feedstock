@@ -1,5 +1,5 @@
 {% set name = "pyobjc-framework-FSEvents" %}
-{% set version = "10.3.2" %}
+{% set version = "11.0" %}
 
 package:
   name: {{ name|lower }}
