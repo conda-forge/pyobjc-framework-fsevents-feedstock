@@ -1,5 +1,5 @@
 {% set name = "pyobjc-framework-FSEvents" %}
-{% set version = "12.0" %}
+{% set version = "12.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyobjc_framework_fsevents-{{ version }}.tar.gz
-  sha256: 768bfc90da3547516b6833e33f28d5f49238c2b47f44b8a9b7c941b951488cd9
+  sha256: a22350e2aa789dec59b62da869c1b494a429f8c618854b1383d6473f4c065a02
 
 build:
   number: 0
