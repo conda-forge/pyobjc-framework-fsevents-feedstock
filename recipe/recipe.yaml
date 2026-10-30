@@ -1,0 +1,50 @@
+schema_version: 1
+
+context:
+  name: pyobjc-framework-FSEvents
+  version: "13.0"
+
+package:
+  name: ${{ name | lower }}
+  version: ${{ version }}
+
+source:
+  url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/pyobjc_framework_fsevents-${{ version }}.tar.gz
+  sha256: 150060ed21c0818892bba8b9c2c54e8d6db51e8af7481ba8742df94340bdc0b9
+
+build:
+  number: 0
+  skip:
+    - not osx
+
+requirements:
+  build:
+    - if: build_platform != target_platform
+      then:
+        - python
+        - cross-python_${{ target_platform }}
+  host:
+    - pip
+    - python
+    - setuptools
+  run:
+    - python
+    - pyobjc-core ==${{ version }}
+    - pyobjc-framework-cocoa ==${{ version }}
+
+tests:
+  - python:
+      imports:
+        - FSEvents
+
+about:
+  homepage: https://github.com/ronaldoussoren/pyobjc
+  license: MIT
+  license_file: LICENSE.txt
+  summary: Wrappers for the framework FSEvents on macOS
+
+extra:
+  recipe-maintainers:
+    - larsoner
+    - hoechenberger
+    - xhochy
