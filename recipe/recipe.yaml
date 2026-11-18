@@ -13,7 +13,7 @@ source:
   sha256: 150060ed21c0818892bba8b9c2c54e8d6db51e8af7481ba8742df94340bdc0b9
 
 build:
-  number: 0
+  number: 1
   skip:
     - not osx
 
