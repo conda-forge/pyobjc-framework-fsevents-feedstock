@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyobjc-framework-FSEvents
-  version: "13.0"
+  version: "13.1"
 
 package:
   name: ${{ name | lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/pyobjc_framework_fsevents-${{ version }}.tar.gz
-  sha256: 150060ed21c0818892bba8b9c2c54e8d6db51e8af7481ba8742df94340bdc0b9
+  sha256: afa2f7fbcae588ec0c0fb5cdc89859aee26899ddffceeb77ebf468c0cd847001
 
 build:
-  number: 1
+  number: 0
   skip:
     - not osx
 
